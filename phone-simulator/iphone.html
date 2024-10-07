@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phone-Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
+    <div class="page">
+      
+      <div class="phone">
+        <div class="power-button">
+        </div>
+        <div class="lock-button">
+        </div>
+        <div class="vol-up">
+        </div>
+        <div class="vol-down">
+        </div>
+        <div class="ridge">
+          <div class="ridge-reflection"></div><!-- end ridge reflection -->
+          <div class="front-cam">
+            <div class="front-cam-lens">
+            </div>
+          </div>
+          <div class="speaker-bezel">
+          </div>
+          <div class="speaker">
+          </div>
+          <div class="screen">
+             <div class="screen-content">
+               <div class="homescreen"></div> <!-- end homescreen -->
+                 <div class="status-bar">
+                   <span class="left-text" id="carrier">T-Mobile</span>
+                   <span class="center-text" id="time">10:20</span>
+                    <i class="fa fa-signal"></i>
+                 </div>
+               <div class="callscreen">
+               </div> <!-- end callscreen -->
+               <div class="callscreen-container">
+                 <div class="receiver-name">
+                     Chris Foyer
+                 </div>
+                 <div class="receiver-photo">
+                   <div class="loadingtrail"></div>
+                 </div>
+                 <div class="call-button-group">
+                   <div class="call-button-1">
+                     <div class="call-button-icon">
+                       <i class="fa fa-microphone-slash"></i>
+                     </div>
+                   </div>
+                   <div class="call-button-2">
+                     <div class="call-button-icon">
+                       <i class="fa fa-th"></i>
+                     </div>
+                   </div>
+                   <div class="call-button-3">
+                     <div class="call-button-icon">
+                       <i class="fa fa-volume-up"></i> 
+                     </div>
+                   </div>
+                   <div class="call-button-4">
+                     <div class="call-button-icon">
+                       <i class="fa fa-users"></i>
+                     </div>
+                   </div>
+                   <div class="call-button-5">
+                     <div class="call-button-icon">
+                       <i class="fa fa-video-camera"></i> 
+                     </div>
+                   </div>
+                   <div class="call-button-6">
+                     <div class="call-button-icon">
+                       <i class="fa fa-pause"></i>
+                     </div>
+                   </div>
+                 </div> <!-- end call button group -->
+                 <div class="end-call-button"> 
+                   <div class="end-call-button-content">
+                     <i class="fa fa-phone"></i> End call
+                   </div>
+                 </div>
+               </div><!-- end call screen container -->
+                 <div class="dialer-app-container"> 
+                   <div class="number-typed">
+                     <input type="text" id="number" Placeholder="018" maxlength="10"></input>
+                     <div class="remover">
+                       <i class="fa fa-times-circle-o"></i>
+                     </div>
+                   </div>
+                  <div class="suggestion">
+                    + Add to contacts
+                   </div>
+                   <div class="dialer-button-group">
+                     <div class="dialer1">
+                       <div class="dialer-num">
+                         1
+                       </div>
+                     </div>
+                     <div class="dialer2">
+                       <div class="dialer-num">
+                         2
+                       </div>
+                     </div>
+                     <div class="dialer3">
+                       <div class="dialer-num">
+                         3
+                       </div>
+                     </div>
+                     <div class="dialer4">
+                       <div class="dialer-num">
+                         4
+                       </div>
+                     </div>
+                     <div class="dialer5">
+                       <div class="dialer-num">
+                         5
+                       </div>
+                     </div>
+                     <div class="dialer6">
+                       <div class="dialer-num">
+                         6
+                       </div>
+                     </div>
+                     <div class="dialer7">
+                       <div class="dialer-num">
+                         7
+                       </div>
+                     </div>
+                     <div class="dialer8">
+                       <div class="dialer-num">
+                         8
+                       </div>
+                     </div>
+                     <div class="dialer9">
+                       <div class="dialer-num">
+                         9
+                       </div>
+                     </div>
+                     <div class="dialerAst">
+                       <div class="dialer-num">
+                         *
+                       </div>
+                     </div>
+                     <div class="dialer0">
+                       <div class="dialer-num">
+                         0
+                       </div>
+                     </div>
+                     <div class="dialerHash">
+                       <div class="dialer-num">
+                         #
+                       </div>
+                     </div>
+                   </div><!-- end dialer-button-group -->
+                   <div class="tabs">
+                     <i class="fa fa-circle"></i>
+                     <i class="fa fa-circle-o"></i>
+                     <i class="fa fa-circle-o"></i>
+                   </div>
+                   <div class="call-button">
+                     <div class="call-text">
+                         Call
+                     </div>
+    
+                   </div>
+                 </div><!-- end dialer-app-container -->
+            
+            </div><!-- end screen-content -->
+          </div><!-- end screen -->
+          <div class="home-button">
+            <div class="home-button-inner">
+            </div>
+            <!--<div class="home-button-image">
+            </div>-->
+          </div><!-- end screen -->
+         
+        </div><!-- end ridge -->
+      </div><!-- end phone -->
+      
+    </div> <!-- end page -->
+    <script src="script.js"></script>
+</body>
+
+</html>
