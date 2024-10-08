@@ -1,51 +1,6 @@
-2024-10-07 16:40:50.915|INFO|filter|Request Received.
-2024-10-07 16:56:42.983|INFO|filter|Request Received.
-2024-10-07 16:58:09.471|INFO|filter|Request Received.
-2024-10-07 16:58:09.472|INFO|ai_processor_func|AI process starting ...
-2024-10-07 16:58:11.469|INFO|filter|Request Received.
-2024-10-07 16:58:11.469|INFO|ai_processor_func|AI process starting ...
-2024-10-07 16:59:36.003|INFO|filter|Request Received.
-2024-10-07 16:59:36.003|INFO|ai_processor_func|AI process starting ...
-2024-10-07 16:59:48.091|INFO|filter|Request Received.
-2024-10-07 16:59:48.091|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:00:01.090|INFO|filter|Request Received.
-2024-10-07 17:00:01.091|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:00:29.325|INFO|filter|Request Received.
-2024-10-07 17:00:29.325|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:01:01.701|INFO|filter|Request Received.
-2024-10-07 17:01:01.701|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:01:47.694|INFO|filter|Request Received.
-2024-10-07 17:01:47.694|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:01:47.694|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
-2024-10-07 17:01:51.104|INFO|ai_processor_func|Response created and returned.
-2024-10-07 17:03:10.221|INFO|filter|Request Received.
-2024-10-07 17:03:10.221|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:04:44.255|INFO|filter|Request Received.
-2024-10-07 17:04:44.255|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:05:10.225|INFO|filter|Request Received.
-2024-10-07 17:05:10.225|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:08:00.554|INFO|filter|Request Received.
-2024-10-07 17:08:00.554|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:09:14.921|INFO|filter|Request Received.
-2024-10-07 17:09:14.921|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:09:48.056|INFO|filter|Request Received.
-2024-10-07 17:09:48.056|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:09:48.056|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
-2024-10-07 17:09:51.096|INFO|ai_processor_func|Response created and returned.
-2024-10-07 17:12:15.785|INFO|filter|Request Received.
-2024-10-07 17:12:15.785|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:12:15.785|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
-2024-10-07 17:12:38.478|INFO|filter|Request Received.
-2024-10-07 17:12:38.478|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:12:38.478|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
-2024-10-07 17:12:41.020|INFO|ai_processor_func|Response created and returned.
-2024-10-07 17:20:52.329|INFO|filter|Request Received.
-2024-10-07 17:20:52.329|INFO|ai_processor_func|AI process starting ...
-2024-10-07 17:20:52.329|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
-2024-10-07 17:20:54.994|INFO|ai_processor_func|Response created and returned.
-2024-10-07 17:29:07.065|INFO|filter|Request Received.
-2024-10-07 17:29:07.065|INFO|ai_processor_func|=============AI process starting =============
-2024-10-07 17:29:09.896|INFO|ai_processor_func|response:
+2024-10-08 06:32:41.566|INFO|filter|Request Received.
+2024-10-08 06:32:41.567|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 06:32:43.549|INFO|ai_processor_func|response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -55,7 +10,7 @@ GenerateContentResponse(
           "content": {
             "parts": [
               {
-                "text": "{\"answerForCustomer\": \"I understand your concern. To help me investigate this, could you please provide more details about the deduction? Specifically, I need to know the amount of money that was deducted, the date and time of the deduction, and the name of the merchant or service that the money was deducted for. Once I have this information, I can look into the transaction and see if it is legitimate.\", \"briefExplaination\": \"The user is asking about an unexpected money deduction from their son's bank account. They are looking for information about the deduction and need to know if it is legitimate.\", \"rephrasedQuestion\": \"Can you provide me with the amount, date, and time of the unexpected deduction from your son's bank account, as well as the name of the merchant or service it was for?\"}\n"
+                "text": "{\"priorityLevel\": \"HIGH\", \"rephrasedQuestion\": \"What is my current account balance?\"}\n"
               }
             ],
             "role": "model"
@@ -83,23 +38,19 @@ GenerateContentResponse(
         }
       ],
       "usage_metadata": {
-        "prompt_token_count": 24,
-        "candidates_token_count": 169,
-        "total_token_count": 193
+        "prompt_token_count": 10,
+        "candidates_token_count": 22,
+        "total_token_count": 32
       }
     }),
 )
-2024-10-07 17:29:09.897|INFO|ai_processor_func|Response created and returned.
-2024-10-07 17:29:09.897|INFO|ai_processor_func|=============AI process finished =============
-2024-10-07 17:29:27.705|INFO|filter|Request Received.
-2024-10-07 17:29:27.705|INFO|ai_processor_func|=============AI process starting =============
-2024-10-07 17:29:29.266|ERROR|ai_processor_func|400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
-domain: "googleapis.com"
-metadata {
-  key: "service"
-  value: "generativelanguage.googleapis.com"
-}
-]
+2024-10-08 06:32:43.549|INFO|ai_processor_func|Response created and returned.
+2024-10-08 06:32:43.549|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 06:34:06.679|INFO|filter|Request Received.
+2024-10-08 06:34:06.679|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 06:34:08.249|ERROR|ai_processor_func|400 * GenerateContentRequest.generation_config.response_schema.properties[briefExplaination].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[rephrasedQuestion].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[relventDepartment].type: must be specified
 Traceback (most recent call last):
   File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 14, in ai_processor_func
     result = model.generate_content(
@@ -128,22 +79,15 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^
   File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
     raise exceptions.from_grpc_error(exc) from exc
-google.api_core.exceptions.InvalidArgument: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
-domain: "googleapis.com"
-metadata {
-  key: "service"
-  value: "generativelanguage.googleapis.com"
-}
-]
-2024-10-07 17:29:34.317|INFO|filter|Request Received.
-2024-10-07 17:29:34.317|INFO|ai_processor_func|=============AI process starting =============
-2024-10-07 17:29:35.841|ERROR|ai_processor_func|400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
-domain: "googleapis.com"
-metadata {
-  key: "service"
-  value: "generativelanguage.googleapis.com"
-}
-]
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.generation_config.response_schema.properties[briefExplaination].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[rephrasedQuestion].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[relventDepartment].type: must be specified
+
+2024-10-08 06:34:27.581|INFO|filter|Request Received.
+2024-10-08 06:34:27.582|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 06:34:29.063|ERROR|ai_processor_func|400 * GenerateContentRequest.generation_config.response_schema.properties[relventDepartment].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[briefExplaination].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[rephrasedQuestion].type: must be specified
 Traceback (most recent call last):
   File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 14, in ai_processor_func
     result = model.generate_content(
@@ -172,16 +116,13 @@ Traceback (most recent call last):
            ^^^^^^^^^^^^^^^^^^^^^
   File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
     raise exceptions.from_grpc_error(exc) from exc
-google.api_core.exceptions.InvalidArgument: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
-domain: "googleapis.com"
-metadata {
-  key: "service"
-  value: "generativelanguage.googleapis.com"
-}
-]
-2024-10-07 17:30:06.788|INFO|filter|Request Received.
-2024-10-07 17:30:06.788|INFO|ai_processor_func|=============AI process starting =============
-2024-10-07 17:30:09.160|INFO|ai_processor_func|response:
+google.api_core.exceptions.InvalidArgument: 400 * GenerateContentRequest.generation_config.response_schema.properties[relventDepartment].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[briefExplaination].type: must be specified
+* GenerateContentRequest.generation_config.response_schema.properties[rephrasedQuestion].type: must be specified
+
+2024-10-08 06:34:36.655|INFO|filter|Request Received.
+2024-10-08 06:34:36.655|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 06:34:37.451|INFO|ai_processor_func|response:
 GenerateContentResponse(
     done=True,
     iterator=None,
@@ -191,7 +132,7 @@ GenerateContentResponse(
           "content": {
             "parts": [
               {
-                "text": "{\"answerForCustomer\": \"I understand you're concerned about an unexpected deduction from your son's bank account. To help me understand the situation better, could you please tell me the date and amount of the deduction, as well as any details about the transaction description?\", \"briefExplaination\": \"The user is concerned about a deduction from their son's bank account and is asking for information about the transaction. To help them, we need more details about the deduction.\", \"rephrasedQuestion\": \"What is the date, amount, and description of the unexpected deduction from your son's bank account?\"}\n"
+                "text": "{\"priorityLevel\": \"HIGH\", \"relventDepartment\": \"Finance\", \"rephrasedQuestion\": \"Please provide my current account balance.\"}\n"
               }
             ],
             "role": "model"
@@ -219,11 +160,1346 @@ GenerateContentResponse(
         }
       ],
       "usage_metadata": {
-        "prompt_token_count": 24,
-        "candidates_token_count": 125,
-        "total_token_count": 149
+        "prompt_token_count": 10,
+        "candidates_token_count": 30,
+        "total_token_count": 40
       }
     }),
 )
-2024-10-07 17:30:09.161|INFO|ai_processor_func|Response created and returned.
-2024-10-07 17:30:09.161|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 06:34:37.451|INFO|ai_processor_func|Response created and returned.
+2024-10-08 06:34:37.451|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:08:23.713|INFO|filter|Request Received.
+2024-10-08 07:08:23.713|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:08:23.713|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:08:23.713|ERROR|dept_append|[Errno 2] No such file or directory: '/bank_departments/dept.txt'
+Traceback (most recent call last):
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 33, in dept_append
+    with open('/bank_departments/dept.txt', 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/bank_departments/dept.txt'
+2024-10-08 07:08:23.714|ERROR|ai_processor_func|[Errno 2] No such file or directory: '/bank_departments/dept.txt'
+Traceback (most recent call last):
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 14, in ai_processor_func
+    appended_data = dept_append(user_input.message)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 33, in dept_append
+    with open('/bank_departments/dept.txt', 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/bank_departments/dept.txt'
+2024-10-08 07:08:42.190|INFO|filter|Request Received.
+2024-10-08 07:08:42.190|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:08:42.190|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:08:42.190|ERROR|dept_append|[Errno 2] No such file or directory: './bank_departments/dept.txt'
+Traceback (most recent call last):
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 33, in dept_append
+    with open('./bank_departments/dept.txt', 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './bank_departments/dept.txt'
+2024-10-08 07:08:42.191|ERROR|ai_processor_func|[Errno 2] No such file or directory: './bank_departments/dept.txt'
+Traceback (most recent call last):
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 14, in ai_processor_func
+    appended_data = dept_append(user_input.message)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 33, in dept_append
+    with open('./bank_departments/dept.txt', 'r') as file:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: './bank_departments/dept.txt'
+2024-10-08 07:09:26.852|INFO|filter|Request Received.
+2024-10-08 07:09:26.853|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:09:26.853|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:09:26.853|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:09:26.853|INFO|ai_processor_func|i want to know my balance immedietly
+### Department: Bank Supervision Department  
+**Main Functions / Responsibilities**  
+Regulation and supervision of banks to ensure soundness of the banking system.
+
+---
+
+### Department: Centre for Banking Studies  
+**Main Functions / Responsibilities**  
+Conducting training programmes to develop human capital of the financial sector and strengthen technical competencies of Central Bank staff and other financial sector personnel.
+
+---
+
+### Department: Communications Department  
+**Main Functions / Responsibilities**  
+Communicating policy decisions and regulatory measures relating to Economic & Price Stability, Financial System Stability, and Agency Functions carried out by the Central Bank (Foreign Exchange, Employees’ Provident Fund, Public Debt Department, Regional Development Department).
+
+---
+
+### Department: Currency Department  
+**Main Functions / Responsibilities**  
+Exercising the Central Bank’s exclusive right to issue currency notes and coins that are legal tender in Sri Lanka.
+
+---
+
+### Department: Department of Supervision of Non-Bank Financial Institutions  
+**Main Functions / Responsibilities**  
+Regulation and supervision of Licensed Finance Companies, Specialized Leasing Companies, Licensed Microfinance Companies, and supervision of Primary Dealers.
+
+---
+
+### Department: Domestic Operations Department  
+**Main Functions / Responsibilities**  
+Implementing monetary policy, conducting open market operations, managing reserve requirements, operating current account facilities for government, banks, and dealers, and regulating authorized money brokers.
+
+---
+
+### Department: Economic Research Department  
+**Main Functions / Responsibilities**  
+Providing policy advice to the Governor and Monetary Board through data compilation, policy analysis, and research to support monetary policy formulation. Responsible for disseminating macroeconomic data to the public.
+
+---
+
+### Department: Employees’ Provident Fund Department  
+**Main Functions / Responsibilities**  
+Collection of member contributions, account maintenance, investment of surplus funds, crediting interest to member accounts, payment of benefits, and preparation of annual accounts for the Fund.
+
+---
+
+### Department: Facilities Management Department  
+**Main Functions / Responsibilities**  
+Maintaining Central Bank premises, providing facilities to support efficient operations.
+
+---
+
+### Department: Finance Department  
+**Main Functions / Responsibilities**  
+Accounting, financial reporting, budgetary control, payment of salaries, management of internal funds, and handling foreign loan disbursements and repayments on behalf of the government.
+
+---
+
+### Department: Foreign Exchange Department  
+**Main Functions / Responsibilities**  
+Implementing the provisions of the Foreign Exchange Act to regulate foreign exchange in Sri Lanka.
+
+---
+
+### Department: Human Resources Department  
+**Main Functions / Responsibilities**  
+Recruitment, placement, and monitoring of staff.
+
+---
+
+### Department: Information Technology Department  
+**Main Functions / Responsibilities**  
+Providing IT solutions to enhance operational efficiency within the Central Bank.
+
+---
+
+### Department: Internal Audit Department  
+**Main Functions / Responsibilities**  
+Performing the internal audit function.
+
+---
+
+### Department: International Operations Department  
+**Main Functions / Responsibilities**  
+Managing official foreign reserves.
+
+---
+
+### Department: Legal and Compliance Department  
+**Main Functions / Responsibilities**  
+Ensuring that legal and regulatory frameworks are robust and up-to-date, safeguarding the Central Bank’s legal interests, and ensuring compliance throughout the institution.
+
+---
+
+### Department: Macroprudential Surveillance Department  
+**Main Functions / Responsibilities**  
+Assessing systemic risks in the financial system and recommending policy measures to ensure financial stability.
+
+---
+
+### Department: Payments and Settlement Department  
+**Main Functions / Responsibilities**  
+Regulating and supervising payment, clearing, and settlement systems to ensure a secure national payment system. Providing leadership for developing these systems.
+
+---
+
+### Department: Policy Review And Monitoring  
+**Main Functions / Responsibilities**  
+Preparing and monitoring progress of the Central Bank’s Strategic Plan.
+
+---
+
+### Department: Public Debt Department  
+**Main Functions / Responsibilities**  
+Raising funds to meet government borrowing requirements, formulating the Medium Term Debt Management Strategy (MTDS), managing government debt payments, and maintaining the LankaSecure system for Government securities settlement.
+
+---
+
+### Department: Regional Development Department  
+**Main Functions / Responsibilities**  
+Promoting financial inclusion and supporting inclusive and balanced economic growth in Sri Lanka.
+
+---
+
+### Department: Regional Offices Management Department  
+**Main Functions / Responsibilities**  
+Monitoring and supervising the work of the Central Bank’s Regional Offices, which promote regional development.
+
+---
+
+### Department: Resolution and Enforcement Department  
+**Main Functions / Responsibilities**  
+Carrying out functions related to the resolution of banks and finance companies, taking enforcement actions on unauthorized finance businesses and schemes, and managing the Sri Lanka Deposit Insurance and Liquidity Support Scheme (SLDILSS).
+
+---
+
+### Department: Risk Management Department  
+**Main Functions / Responsibilities**  
+Strengthening risk management and governance within the Central Bank.
+
+---
+
+### Department: Secretariat Department  
+**Main Functions / Responsibilities**  
+Managing corporate administration, procurement, leave management, event management, and superannuation funds.
+
+---
+
+### Department: Security Services Department  
+**Main Functions / Responsibilities**  
+Providing security for Central Bank premises and currency consignments in transit.
+
+---
+
+### Department: Staff Services Management Department  
+**Main Functions / Responsibilities**  
+Providing welfare facilities to Central Bank staff.
+
+---
+
+### Department: Statistics Department  
+**Main Functions / Responsibilities**  
+Compiling, analyzing, and forecasting socio-economic statistics, and conducting surveys.
+
+---
+
+### Department: Training and Development Department  
+**Main Functions / Responsibilities**  
+Developing the human capital of the Central Bank.
+
+---
+
+### Financial Intelligence Unit  
+**Main Functions / Responsibilities**  
+Collecting and receiving information on financial transactions to detect money laundering, terrorist financing, and other unlawful activities. Analyzing suspicious financial transactions and disseminating information to law enforcement and regulatory authorities for investigation.
+
+--- 
+```
+2024-10-08 07:09:28.844|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"relventDepartment\": \"Domestic Operations Department\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1246,
+        "candidates_token_count": 10,
+        "total_token_count": 1256
+      }
+    }),
+)
+2024-10-08 07:09:28.844|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:09:28.844|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:11:33.406|INFO|filter|Request Received.
+2024-10-08 07:11:33.406|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:11:33.407|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:11:33.408|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:11:33.408|INFO|ai_processor_func|i want to know my balance immedietly
+
+## Choose the relevent department for user inqury
+
+### Department: Bank Supervision Department  
+**Main Functions / Responsibilities**  
+Regulation and supervision of banks to ensure soundness of the banking system.
+
+---
+
+### Department: Centre for Banking Studies  
+**Main Functions / Responsibilities**  
+Conducting training programmes to develop human capital of the financial sector and strengthen technical competencies of Central Bank staff and other financial sector personnel.
+
+---
+
+### Department: Communications Department  
+**Main Functions / Responsibilities**  
+Communicating policy decisions and regulatory measures relating to Economic & Price Stability, Financial System Stability, and Agency Functions carried out by the Central Bank (Foreign Exchange, Employees’ Provident Fund, Public Debt Department, Regional Development Department).
+
+---
+
+### Department: Currency Department  
+**Main Functions / Responsibilities**  
+Exercising the Central Bank’s exclusive right to issue currency notes and coins that are legal tender in Sri Lanka.
+
+---
+
+### Department: Department of Supervision of Non-Bank Financial Institutions  
+**Main Functions / Responsibilities**  
+Regulation and supervision of Licensed Finance Companies, Specialized Leasing Companies, Licensed Microfinance Companies, and supervision of Primary Dealers.
+
+---
+
+### Department: Domestic Operations Department  
+**Main Functions / Responsibilities**  
+Implementing monetary policy, conducting open market operations, managing reserve requirements, operating current account facilities for government, banks, and dealers, and regulating authorized money brokers.
+
+---
+
+### Department: Economic Research Department  
+**Main Functions / Responsibilities**  
+Providing policy advice to the Governor and Monetary Board through data compilation, policy analysis, and research to support monetary policy formulation. Responsible for disseminating macroeconomic data to the public.
+
+---
+
+### Department: Employees’ Provident Fund Department  
+**Main Functions / Responsibilities**  
+Collection of member contributions, account maintenance, investment of surplus funds, crediting interest to member accounts, payment of benefits, and preparation of annual accounts for the Fund.
+
+---
+
+### Department: Facilities Management Department  
+**Main Functions / Responsibilities**  
+Maintaining Central Bank premises, providing facilities to support efficient operations.
+
+---
+
+### Department: Finance Department  
+**Main Functions / Responsibilities**  
+Accounting, financial reporting, budgetary control, payment of salaries, management of internal funds, and handling foreign loan disbursements and repayments on behalf of the government.
+
+---
+
+### Department: Foreign Exchange Department  
+**Main Functions / Responsibilities**  
+Implementing the provisions of the Foreign Exchange Act to regulate foreign exchange in Sri Lanka.
+
+---
+
+### Department: Human Resources Department  
+**Main Functions / Responsibilities**  
+Recruitment, placement, and monitoring of staff.
+
+---
+
+### Department: Information Technology Department  
+**Main Functions / Responsibilities**  
+Providing IT solutions to enhance operational efficiency within the Central Bank.
+
+---
+
+### Department: Internal Audit Department  
+**Main Functions / Responsibilities**  
+Performing the internal audit function.
+
+---
+
+### Department: International Operations Department  
+**Main Functions / Responsibilities**  
+Managing official foreign reserves.
+
+---
+
+### Department: Legal and Compliance Department  
+**Main Functions / Responsibilities**  
+Ensuring that legal and regulatory frameworks are robust and up-to-date, safeguarding the Central Bank’s legal interests, and ensuring compliance throughout the institution.
+
+---
+
+### Department: Macroprudential Surveillance Department  
+**Main Functions / Responsibilities**  
+Assessing systemic risks in the financial system and recommending policy measures to ensure financial stability.
+
+---
+
+### Department: Payments and Settlement Department  
+**Main Functions / Responsibilities**  
+Regulating and supervising payment, clearing, and settlement systems to ensure a secure national payment system. Providing leadership for developing these systems.
+
+---
+
+### Department: Policy Review And Monitoring  
+**Main Functions / Responsibilities**  
+Preparing and monitoring progress of the Central Bank’s Strategic Plan.
+
+---
+
+### Department: Public Debt Department  
+**Main Functions / Responsibilities**  
+Raising funds to meet government borrowing requirements, formulating the Medium Term Debt Management Strategy (MTDS), managing government debt payments, and maintaining the LankaSecure system for Government securities settlement.
+
+---
+
+### Department: Regional Development Department  
+**Main Functions / Responsibilities**  
+Promoting financial inclusion and supporting inclusive and balanced economic growth in Sri Lanka.
+
+---
+
+### Department: Regional Offices Management Department  
+**Main Functions / Responsibilities**  
+Monitoring and supervising the work of the Central Bank’s Regional Offices, which promote regional development.
+
+---
+
+### Department: Resolution and Enforcement Department  
+**Main Functions / Responsibilities**  
+Carrying out functions related to the resolution of banks and finance companies, taking enforcement actions on unauthorized finance businesses and schemes, and managing the Sri Lanka Deposit Insurance and Liquidity Support Scheme (SLDILSS).
+
+---
+
+### Department: Risk Management Department  
+**Main Functions / Responsibilities**  
+Strengthening risk management and governance within the Central Bank.
+
+---
+
+### Department: Secretariat Department  
+**Main Functions / Responsibilities**  
+Managing corporate administration, procurement, leave management, event management, and superannuation funds.
+
+---
+
+### Department: Security Services Department  
+**Main Functions / Responsibilities**  
+Providing security for Central Bank premises and currency consignments in transit.
+
+---
+
+### Department: Staff Services Management Department  
+**Main Functions / Responsibilities**  
+Providing welfare facilities to Central Bank staff.
+
+---
+
+### Department: Statistics Department  
+**Main Functions / Responsibilities**  
+Compiling, analyzing, and forecasting socio-economic statistics, and conducting surveys.
+
+---
+
+### Department: Training and Development Department  
+**Main Functions / Responsibilities**  
+Developing the human capital of the Central Bank.
+
+---
+
+### Financial Intelligence Unit  
+**Main Functions / Responsibilities**  
+Collecting and receiving information on financial transactions to detect money laundering, terrorist financing, and other unlawful activities. Analyzing suspicious financial transactions and disseminating information to law enforcement and regulatory authorities for investigation.
+
+--- 
+```
+2024-10-08 07:11:34.374|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"relventDepartment\": \"Domestic Operations Department\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1258,
+        "candidates_token_count": 10,
+        "total_token_count": 1268
+      }
+    }),
+)
+2024-10-08 07:11:34.375|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:11:34.375|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:11:36.499|INFO|filter|Request Received.
+2024-10-08 07:11:36.499|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:11:36.500|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:11:36.500|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:11:36.500|INFO|ai_processor_func|i want to know my balance immedietly
+
+## Choose the relevent department for user inqury
+
+### Department: Bank Supervision Department  
+**Main Functions / Responsibilities**  
+Regulation and supervision of banks to ensure soundness of the banking system.
+
+---
+
+### Department: Centre for Banking Studies  
+**Main Functions / Responsibilities**  
+Conducting training programmes to develop human capital of the financial sector and strengthen technical competencies of Central Bank staff and other financial sector personnel.
+
+---
+
+### Department: Communications Department  
+**Main Functions / Responsibilities**  
+Communicating policy decisions and regulatory measures relating to Economic & Price Stability, Financial System Stability, and Agency Functions carried out by the Central Bank (Foreign Exchange, Employees’ Provident Fund, Public Debt Department, Regional Development Department).
+
+---
+
+### Department: Currency Department  
+**Main Functions / Responsibilities**  
+Exercising the Central Bank’s exclusive right to issue currency notes and coins that are legal tender in Sri Lanka.
+
+---
+
+### Department: Department of Supervision of Non-Bank Financial Institutions  
+**Main Functions / Responsibilities**  
+Regulation and supervision of Licensed Finance Companies, Specialized Leasing Companies, Licensed Microfinance Companies, and supervision of Primary Dealers.
+
+---
+
+### Department: Domestic Operations Department  
+**Main Functions / Responsibilities**  
+Implementing monetary policy, conducting open market operations, managing reserve requirements, operating current account facilities for government, banks, and dealers, and regulating authorized money brokers.
+
+---
+
+### Department: Economic Research Department  
+**Main Functions / Responsibilities**  
+Providing policy advice to the Governor and Monetary Board through data compilation, policy analysis, and research to support monetary policy formulation. Responsible for disseminating macroeconomic data to the public.
+
+---
+
+### Department: Employees’ Provident Fund Department  
+**Main Functions / Responsibilities**  
+Collection of member contributions, account maintenance, investment of surplus funds, crediting interest to member accounts, payment of benefits, and preparation of annual accounts for the Fund.
+
+---
+
+### Department: Facilities Management Department  
+**Main Functions / Responsibilities**  
+Maintaining Central Bank premises, providing facilities to support efficient operations.
+
+---
+
+### Department: Finance Department  
+**Main Functions / Responsibilities**  
+Accounting, financial reporting, budgetary control, payment of salaries, management of internal funds, and handling foreign loan disbursements and repayments on behalf of the government.
+
+---
+
+### Department: Foreign Exchange Department  
+**Main Functions / Responsibilities**  
+Implementing the provisions of the Foreign Exchange Act to regulate foreign exchange in Sri Lanka.
+
+---
+
+### Department: Human Resources Department  
+**Main Functions / Responsibilities**  
+Recruitment, placement, and monitoring of staff.
+
+---
+
+### Department: Information Technology Department  
+**Main Functions / Responsibilities**  
+Providing IT solutions to enhance operational efficiency within the Central Bank.
+
+---
+
+### Department: Internal Audit Department  
+**Main Functions / Responsibilities**  
+Performing the internal audit function.
+
+---
+
+### Department: International Operations Department  
+**Main Functions / Responsibilities**  
+Managing official foreign reserves.
+
+---
+
+### Department: Legal and Compliance Department  
+**Main Functions / Responsibilities**  
+Ensuring that legal and regulatory frameworks are robust and up-to-date, safeguarding the Central Bank’s legal interests, and ensuring compliance throughout the institution.
+
+---
+
+### Department: Macroprudential Surveillance Department  
+**Main Functions / Responsibilities**  
+Assessing systemic risks in the financial system and recommending policy measures to ensure financial stability.
+
+---
+
+### Department: Payments and Settlement Department  
+**Main Functions / Responsibilities**  
+Regulating and supervising payment, clearing, and settlement systems to ensure a secure national payment system. Providing leadership for developing these systems.
+
+---
+
+### Department: Policy Review And Monitoring  
+**Main Functions / Responsibilities**  
+Preparing and monitoring progress of the Central Bank’s Strategic Plan.
+
+---
+
+### Department: Public Debt Department  
+**Main Functions / Responsibilities**  
+Raising funds to meet government borrowing requirements, formulating the Medium Term Debt Management Strategy (MTDS), managing government debt payments, and maintaining the LankaSecure system for Government securities settlement.
+
+---
+
+### Department: Regional Development Department  
+**Main Functions / Responsibilities**  
+Promoting financial inclusion and supporting inclusive and balanced economic growth in Sri Lanka.
+
+---
+
+### Department: Regional Offices Management Department  
+**Main Functions / Responsibilities**  
+Monitoring and supervising the work of the Central Bank’s Regional Offices, which promote regional development.
+
+---
+
+### Department: Resolution and Enforcement Department  
+**Main Functions / Responsibilities**  
+Carrying out functions related to the resolution of banks and finance companies, taking enforcement actions on unauthorized finance businesses and schemes, and managing the Sri Lanka Deposit Insurance and Liquidity Support Scheme (SLDILSS).
+
+---
+
+### Department: Risk Management Department  
+**Main Functions / Responsibilities**  
+Strengthening risk management and governance within the Central Bank.
+
+---
+
+### Department: Secretariat Department  
+**Main Functions / Responsibilities**  
+Managing corporate administration, procurement, leave management, event management, and superannuation funds.
+
+---
+
+### Department: Security Services Department  
+**Main Functions / Responsibilities**  
+Providing security for Central Bank premises and currency consignments in transit.
+
+---
+
+### Department: Staff Services Management Department  
+**Main Functions / Responsibilities**  
+Providing welfare facilities to Central Bank staff.
+
+---
+
+### Department: Statistics Department  
+**Main Functions / Responsibilities**  
+Compiling, analyzing, and forecasting socio-economic statistics, and conducting surveys.
+
+---
+
+### Department: Training and Development Department  
+**Main Functions / Responsibilities**  
+Developing the human capital of the Central Bank.
+
+---
+
+### Financial Intelligence Unit  
+**Main Functions / Responsibilities**  
+Collecting and receiving information on financial transactions to detect money laundering, terrorist financing, and other unlawful activities. Analyzing suspicious financial transactions and disseminating information to law enforcement and regulatory authorities for investigation.
+
+--- 
+```
+2024-10-08 07:11:38.434|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"relventDepartment\": \"Domestic Operations Department\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1258,
+        "candidates_token_count": 10,
+        "total_token_count": 1268
+      }
+    }),
+)
+2024-10-08 07:11:38.435|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:11:38.435|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:16:30.987|INFO|filter|Request Received.
+2024-10-08 07:16:30.987|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:16:30.987|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:16:30.987|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:16:32.867|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"I would like to know my current account balance immediately.\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1299,
+        "candidates_token_count": 19,
+        "total_token_count": 1318
+      }
+    }),
+)
+2024-10-08 07:16:32.868|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:16:32.868|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:18:18.653|INFO|filter|Request Received.
+2024-10-08 07:18:18.653|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:18:18.654|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:18:18.655|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:18:20.676|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"What is my current account balance?  Please provide me with my account balance immediately. \"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 25,
+        "total_token_count": 1342
+      }
+    }),
+)
+2024-10-08 07:18:20.676|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:18:20.676|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:18:41.254|INFO|filter|Request Received.
+2024-10-08 07:18:41.254|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:18:41.256|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:18:41.256|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:18:42.045|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"What is my current account balance? \"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 15,
+        "total_token_count": 1332
+      }
+    }),
+)
+2024-10-08 07:18:42.046|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:18:42.046|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:18:44.077|INFO|filter|Request Received.
+2024-10-08 07:18:44.077|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:18:44.078|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:18:44.078|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:18:46.007|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"I would like to know my current account balance immediately.  \"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 20,
+        "total_token_count": 1337
+      }
+    }),
+)
+2024-10-08 07:18:46.008|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:18:46.008|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:18:47.550|INFO|filter|Request Received.
+2024-10-08 07:18:47.550|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:18:47.551|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:18:47.551|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:19:13.079|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"What is my current account balance?  Please provide me with my balance immediately.  Can you share my current account balance?  Please tell me my balance.  I need to know my balance.  I want to know how much money is in my account.  Can you tell me my current balance?  What is the current amount in my account?  How much money do I have in my account right now?  I would like to know my account balance.  Could you tell me my account balance?  Please provide me with my balance.  What is the current balance of my account?  I would like to know the current balance of my account.  Can you please tell me the balance of my account?  I would like to know the current balance of my account.  I need to check my balance.  Can you please tell me my balance?  I would like to know my account balance.  Please tell me how much money I have in my account.  I need to know how much money is in my account right now.  What is the current balance of my account?  Can you please tell me my current account balance?  Please tell me my balance.  I need to know my current account balance.  Could you please tell me my current account balance?  Can you provide me with my current account balance?  What is the current balance in my account?  I would like to know the current balance of my account.  Please share my current account balance with me.  Can you please tell me the current balance of my account?  I need to check the balance of my account.  Please tell me the balance of my account.  I need to know the current balance of my account.  Please provide me with the current balance of my account.  Can you please tell me the current balance of my account?  Could you please tell me the current balance of my account?  I need to know the balance of my account.  I would like to know the balance of my account.  Can you please tell me the balance of my account?  Please tell me the balance of my account.  I would like to know the balance of my account.  I need to check my account balance.  I need to know the current balance of my account.  Could you please tell me the balance of my account?  Can you please tell me the balance of my account?  Please tell me my account balance.  Can you please tell me the balance of my account?  Please tell me my account balance.  I need to know the balance of my account.  I want to know the balance of my account.  Please tell me the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I would like to know the balance of my account.  I would like to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to check the balance of my account.  Please tell me the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  I would like to know the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  Can you please tell me the balance of my account?  Please tell me the balance of my account.  I need to know the balance of my account.  I need to check the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  Please tell me the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  Please tell me the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  Please tell me the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  Please tell me the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  Please tell me the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  Can you please tell me the balance of my account?  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the balance of my account.  I need to know the"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 8192,
+        "total_token_count": 9509
+      }
+    }),
+)
+2024-10-08 07:19:13.080|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:19:13.080|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:19:13.081|INFO|filter|Request Received.
+2024-10-08 07:19:13.081|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:19:13.082|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:19:13.082|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:19:13.864|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"What is my current account balance?  \"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 16,
+        "total_token_count": 1333
+      }
+    }),
+)
+2024-10-08 07:19:13.864|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:19:13.864|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:19:17.523|INFO|filter|Request Received.
+2024-10-08 07:19:17.523|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:19:17.524|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:19:17.524|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:19:19.410|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"What is my current account balance? Please tell me my balance immediately. \"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 22,
+        "total_token_count": 1339
+      }
+    }),
+)
+2024-10-08 07:19:19.410|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:19:19.410|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:20:00.044|INFO|filter|Request Received.
+2024-10-08 07:20:00.044|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:20:00.045|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:20:00.045|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:20:27.009|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"What is my current account balance?  Please provide me with my balance information immediately.  I would like to know my balance as soon as possible.  I need my current balance.  Can you tell me what my current balance is?  I need to know my balance right now.  Please check my account balance.  Please provide me with my current balance.  Can you check my balance for me?  What is the current balance in my account?  What is my balance?  I want to know my balance.  How much money is in my account?  I need to check my balance.  Please give me my balance.  What's my balance?  I want to know how much money is in my account.  Can you tell me my balance?  Please check the balance on my account.  Please let me know my current balance.  Please tell me my balance.  I want to know the balance in my account.  What is the balance on my account?  Can you tell me my current balance?  Please check my account balance for me.  I would like to know my account balance.  What's the balance in my account?  I need to know the balance in my account.  Can you provide me with my account balance?  I want to know what my balance is.  What is my account balance?  What's the balance of my account?  I want to check my balance.  Can you check the balance in my account?  What is the current balance in my account?  Please check my balance.  What's my balance?  Please check my account balance.  I need to know my balance.  Please tell me my account balance.  I want to know my balance.  What's the balance in my account?  Please give me my account balance.  What's my current balance?  What is my balance?  How much money is in my account?  Please tell me my account balance.  Please give me my balance.  Can you tell me my current balance?  What is my balance right now?  I need to know my current balance.  What is the current balance in my account?  What is my account balance?  Please check my account balance.  Can you tell me my balance?  I need to know the balance in my account.  Can you check my account balance for me?  I want to know my balance.  Please let me know my balance.  Please give me my balance.  What's my balance?  I want to know my current balance.  Please provide me with my balance.  What is the current balance in my account?  Please tell me my current balance.  Please check my balance.  I need to know my current balance.  Can you check the balance in my account?  I want to know my account balance.  What's my balance?  Please provide me with my account balance.  Can you check my balance for me?  I need to know my balance.  What's my balance?  What's the balance on my account?  Can you tell me my balance?  I want to know my account balance.  What is my current balance?  Please let me know my balance.  What's the balance in my account?  Can you tell me my account balance?  I want to know my balance.  Please check my account balance.  Please check my balance.  I need to know my balance.  Please give me my balance.  What's my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance.  Can you check my balance?  I need to know my balance.  Please provide me with my balance.  What is my balance?  I want to know my balance."
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 8192,
+        "total_token_count": 9509
+      }
+    }),
+)
+2024-10-08 07:20:27.011|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:20:27.011|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:20:27.450|INFO|filter|Request Received.
+2024-10-08 07:20:27.450|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:20:27.451|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:20:27.452|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:20:29.461|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"relventDepartment\": \"Domestic Operations Department\", \"rephrasedQuestion\": \"What is my current account balance?\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 25,
+        "total_token_count": 1342
+      }
+    }),
+)
+2024-10-08 07:20:29.461|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:20:29.461|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:20:35.948|INFO|filter|Request Received.
+2024-10-08 07:20:35.948|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:20:35.950|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:20:35.950|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:20:36.832|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"I would like to know my current account balance immediately.  Please provide me with my balance information.  \"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 29,
+        "total_token_count": 1346
+      }
+    }),
+)
+2024-10-08 07:20:36.832|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:20:36.832|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:21:05.777|INFO|filter|Request Received.
+2024-10-08 07:21:05.777|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:21:05.777|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:21:05.778|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:21:06.465|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"relventDepartment\": \"Domestic Operations Department\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 10,
+        "total_token_count": 1327
+      }
+    }),
+)
+2024-10-08 07:21:06.466|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:21:06.466|INFO|ai_processor_func|=============AI process finished =============
+2024-10-08 07:25:29.753|INFO|filter|Request Received.
+2024-10-08 07:25:29.753|INFO|ai_processor_func|=============AI process starting =============
+2024-10-08 07:25:29.753|INFO|dept_append|text extracting from the text file starting
+2024-10-08 07:25:29.753|INFO|dept_append|text extracting from the text file finished
+2024-10-08 07:25:31.770|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"relventDepartment\": \"Domestic Operations Department\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 1317,
+        "candidates_token_count": 10,
+        "total_token_count": 1327
+      }
+    }),
+)
+2024-10-08 07:25:31.770|INFO|ai_processor_func|Response created and returned.
+2024-10-08 07:25:31.770|INFO|ai_processor_func|=============AI process finished =============

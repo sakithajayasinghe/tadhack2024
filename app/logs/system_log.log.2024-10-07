@@ -1,0 +1,277 @@
+2024-10-07 16:40:50.915|INFO|filter|Request Received.
+2024-10-07 16:56:42.983|INFO|filter|Request Received.
+2024-10-07 16:58:09.471|INFO|filter|Request Received.
+2024-10-07 16:58:09.472|INFO|ai_processor_func|AI process starting ...
+2024-10-07 16:58:11.469|INFO|filter|Request Received.
+2024-10-07 16:58:11.469|INFO|ai_processor_func|AI process starting ...
+2024-10-07 16:59:36.003|INFO|filter|Request Received.
+2024-10-07 16:59:36.003|INFO|ai_processor_func|AI process starting ...
+2024-10-07 16:59:48.091|INFO|filter|Request Received.
+2024-10-07 16:59:48.091|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:00:01.090|INFO|filter|Request Received.
+2024-10-07 17:00:01.091|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:00:29.325|INFO|filter|Request Received.
+2024-10-07 17:00:29.325|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:01:01.701|INFO|filter|Request Received.
+2024-10-07 17:01:01.701|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:01:47.694|INFO|filter|Request Received.
+2024-10-07 17:01:47.694|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:01:47.694|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
+2024-10-07 17:01:51.104|INFO|ai_processor_func|Response created and returned.
+2024-10-07 17:03:10.221|INFO|filter|Request Received.
+2024-10-07 17:03:10.221|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:04:44.255|INFO|filter|Request Received.
+2024-10-07 17:04:44.255|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:05:10.225|INFO|filter|Request Received.
+2024-10-07 17:05:10.225|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:08:00.554|INFO|filter|Request Received.
+2024-10-07 17:08:00.554|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:09:14.921|INFO|filter|Request Received.
+2024-10-07 17:09:14.921|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:09:48.056|INFO|filter|Request Received.
+2024-10-07 17:09:48.056|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:09:48.056|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
+2024-10-07 17:09:51.096|INFO|ai_processor_func|Response created and returned.
+2024-10-07 17:12:15.785|INFO|filter|Request Received.
+2024-10-07 17:12:15.785|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:12:15.785|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
+2024-10-07 17:12:38.478|INFO|filter|Request Received.
+2024-10-07 17:12:38.478|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:12:38.478|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
+2024-10-07 17:12:41.020|INFO|ai_processor_func|Response created and returned.
+2024-10-07 17:20:52.329|INFO|filter|Request Received.
+2024-10-07 17:20:52.329|INFO|ai_processor_func|AI process starting ...
+2024-10-07 17:20:52.329|INFO|ai_processor_func|AIzaSyADHl56wAza61ywgImT6Ak5olAkjqXUOaI
+2024-10-07 17:20:54.994|INFO|ai_processor_func|Response created and returned.
+2024-10-07 17:29:07.065|INFO|filter|Request Received.
+2024-10-07 17:29:07.065|INFO|ai_processor_func|=============AI process starting =============
+2024-10-07 17:29:09.896|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"answerForCustomer\": \"I understand your concern. To help me investigate this, could you please provide more details about the deduction? Specifically, I need to know the amount of money that was deducted, the date and time of the deduction, and the name of the merchant or service that the money was deducted for. Once I have this information, I can look into the transaction and see if it is legitimate.\", \"briefExplaination\": \"The user is asking about an unexpected money deduction from their son's bank account. They are looking for information about the deduction and need to know if it is legitimate.\", \"rephrasedQuestion\": \"Can you provide me with the amount, date, and time of the unexpected deduction from your son's bank account, as well as the name of the merchant or service it was for?\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 24,
+        "candidates_token_count": 169,
+        "total_token_count": 193
+      }
+    }),
+)
+2024-10-07 17:29:09.897|INFO|ai_processor_func|Response created and returned.
+2024-10-07 17:29:09.897|INFO|ai_processor_func|=============AI process finished =============
+2024-10-07 17:29:27.705|INFO|filter|Request Received.
+2024-10-07 17:29:27.705|INFO|ai_processor_func|=============AI process starting =============
+2024-10-07 17:29:29.266|ERROR|ai_processor_func|400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+Traceback (most recent call last):
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 14, in ai_processor_func
+    result = model.generate_content(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 830, in generate_content
+    response = rpc(
+               ^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+2024-10-07 17:29:34.317|INFO|filter|Request Received.
+2024-10-07 17:29:34.317|INFO|ai_processor_func|=============AI process starting =============
+2024-10-07 17:29:35.841|ERROR|ai_processor_func|400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+Traceback (most recent call last):
+  File "/workspaces/tadhack2024/app/scripts/LLM/ai_processor.py", line 14, in ai_processor_func
+    result = model.generate_content(
+             ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/generativeai/generative_models.py", line 331, in generate_content
+    response = self._client.generate_content(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/ai/generativelanguage_v1beta/services/generative_service/client.py", line 830, in generate_content
+    response = rpc(
+               ^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/gapic_v1/method.py", line 131, in __call__
+    return wrapped_func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 293, in retry_wrapped_func
+    return retry_target(
+           ^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 153, in retry_target
+    _retry_error_helper(
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_base.py", line 212, in _retry_error_helper
+    raise final_exc from source_exc
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/retry/retry_unary.py", line 144, in retry_target
+    result = target()
+             ^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/timeout.py", line 120, in func_with_timeout
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/tadhack2024/app/.venv/lib/python3.12/site-packages/google/api_core/grpc_helpers.py", line 78, in error_remapped_callable
+    raise exceptions.from_grpc_error(exc) from exc
+google.api_core.exceptions.InvalidArgument: 400 API key not valid. Please pass a valid API key. [reason: "API_KEY_INVALID"
+domain: "googleapis.com"
+metadata {
+  key: "service"
+  value: "generativelanguage.googleapis.com"
+}
+]
+2024-10-07 17:30:06.788|INFO|filter|Request Received.
+2024-10-07 17:30:06.788|INFO|ai_processor_func|=============AI process starting =============
+2024-10-07 17:30:09.160|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"answerForCustomer\": \"I understand you're concerned about an unexpected deduction from your son's bank account. To help me understand the situation better, could you please tell me the date and amount of the deduction, as well as any details about the transaction description?\", \"briefExplaination\": \"The user is concerned about a deduction from their son's bank account and is asking for information about the transaction. To help them, we need more details about the deduction.\", \"rephrasedQuestion\": \"What is the date, amount, and description of the unexpected deduction from your son's bank account?\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 24,
+        "candidates_token_count": 125,
+        "total_token_count": 149
+      }
+    }),
+)
+2024-10-07 17:30:09.161|INFO|ai_processor_func|Response created and returned.
+2024-10-07 17:30:09.161|INFO|ai_processor_func|=============AI process finished =============
+2024-10-07 18:13:02.554|INFO|filter|Request Received.
+2024-10-07 18:13:02.554|INFO|ai_processor_func|=============AI process starting =============
+2024-10-07 18:13:04.554|INFO|ai_processor_func|response:
+GenerateContentResponse(
+    done=True,
+    iterator=None,
+    result=protos.GenerateContentResponse({
+      "candidates": [
+        {
+          "content": {
+            "parts": [
+              {
+                "text": "{\"rephrasedQuestion\": \"I noticed an unexpected deduction from my account. Can you tell me what it was for?\"}\n"
+              }
+            ],
+            "role": "model"
+          },
+          "finish_reason": "STOP",
+          "index": 0,
+          "safety_ratings": [
+            {
+              "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HATE_SPEECH",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_HARASSMENT",
+              "probability": "NEGLIGIBLE"
+            },
+            {
+              "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+              "probability": "NEGLIGIBLE"
+            }
+          ]
+        }
+      ],
+      "usage_metadata": {
+        "prompt_token_count": 7,
+        "candidates_token_count": 26,
+        "total_token_count": 33
+      }
+    }),
+)
+2024-10-07 18:13:04.555|INFO|ai_processor_func|Response created and returned.
+2024-10-07 18:13:04.555|INFO|ai_processor_func|=============AI process finished =============
