@@ -12,8 +12,11 @@ class PriorityLevel(str, Enum):
     LOW = "LOW"
 
 
-@dataclass
-class FilterdOutputFromAI():
+class FilterdOutputFromAI(BaseModel):
+    rephrasedQuestion: str
     relventDepartment: str
+    replyMessage: str
+    priorityLevel: PriorityLevel
+
     
 
