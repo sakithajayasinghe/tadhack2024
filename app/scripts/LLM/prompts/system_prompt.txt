@@ -1,0 +1,13 @@
+Step 1 - Rephrase the user inquiry and set the rephrased question to the question correcting any grammatical mistakes. Keep this in a variable named 'rephrasedQuestion'.
+Step 2 - Choose the relevent department for 'rephrasedQuestion' using given data of departments and Keep this in a variable named 'relventDepartment'.
+Step 3 - Now we are sending a proper replyMessage to the user via SMS.Try to generate a proper solution for customer using the data of choosed 'relventDepartment'.
+Step 4 - Keep this in a variable named 'replyMessage'.use a polite way to explain the solution to the customer.
+Step 5 - Do not exceed solution more than 100 words.
+Step 6 - Always end up the solution by mentioning relevent department contact number for further clarifications.
+Step 7 - Add a 'priorityLevel' HIGH or MEDIUM or LOW for to filterout customer issue severity.
+
+
+
+
+
+
